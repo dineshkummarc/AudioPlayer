@@ -1,0 +1,73 @@
+.audioPlayerContainer {
+	padding:15px 10px 10px 10px;
+	border-radius:0 0 5px 5px;
+	overflow:hidden;
+}
+
+.audioPlayer {
+background: #AAA;
+height: 300px;
+width: 499px;
+font-family: "Verdana","Helvetica",sans;
+font-size: 14px;
+overflow:scroll;
+}
+
+.audioPlayerTrackList {
+	overflow:scroll;
+	text-indent: 0;
+	margin:0;
+	padding:0;
+}
+
+.audioPlayerTrack{
+	display:block;
+	float:left;
+	color:#000;	
+	background:#8c88bd;
+	list-style-type:none;
+	padding:10px 15px 15px 10px;
+	border-style:solid;
+	border-color:black;
+	border-width:0 0 1px 1px;
+	overflow:hidden;
+	cursor:pointer;
+	
+	
+}
+.audioPlayerTrack:hover {
+	background:#EAE8FF;
+
+	
+}
+
+.audioPlayerTrack span {
+	display:block;
+	float:right;
+	border-left: 1px solid #333;
+	float: right;
+	padding: 0 10px 0 10px;
+}
+	
+.audioPlayerControlsContainer {
+	clear:both;
+	width:100%;
+	height:50px;
+	background:#000;
+	
+}
+
+.audioPlayerControlsContainer .controls {
+	background:#666;
+	border:0;
+	color:#fff;
+	padding:5px;
+	font-size:12px;
+	margin:5px 10px 10px 0;
+	
+}
+
+.audioPlayerControlsContainer .controls:hover {
+	background:#aaa;
+	
+}
